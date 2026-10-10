@@ -1,0 +1,3 @@
+{"ts": 1791645108.3238804, "event": "state_change", "region": "b", "to": "UNHEALTHY", "reason": "http_503", "interval_s": 5.0, "threshold": 3, "consecutive_fails": 3}
+{"ts": 1791645113.3113225, "event": "state_change", "region": "a", "to": "UNHEALTHY", "reason": "ConnectError", "interval_s": 5.0, "threshold": 3, "consecutive_fails": 3}
+{"ts": 1791645123.3166106, "event": "state_change", "region": "b", "to": "HEALTHY", "reason": "ready", "interval_s": 5.0, "threshold": 3, "consecutive_fails": 0}

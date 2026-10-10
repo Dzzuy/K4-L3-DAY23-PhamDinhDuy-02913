@@ -26,10 +26,10 @@ services:
     depends_on: [serving-a, serving-b]
 
   minio:
-    image: minio/minio:latest
-    command: server /data --console-address ":9001"
+    build: { context: ., dockerfile: stretch/minio/Dockerfile }
+    image: day23-minio-community:2025-09-07
     environment: [MINIO_ROOT_USER=minioadmin, MINIO_ROOT_PASSWORD=minioadmin]
-    ports: ["9000:9000", "9001:9001"]
+    ports: ["127.0.0.1:9000:9000", "127.0.0.1:9001:9001"]
     volumes: ["minio-data:/data"]
 
 volumes:

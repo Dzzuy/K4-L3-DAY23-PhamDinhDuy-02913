@@ -1,0 +1,18 @@
+{
+  "measured_at_utc": "2026-10-10T15:08:25.682470+00:00",
+  "backend": "minio",
+  "bucket": "day23-stretch-failover",
+  "before_region": "a",
+  "after_region": "b",
+  "failover_rto_s": 4.89,
+  "rpo_seconds": 0.0,
+  "docs_lost": 0,
+  "snapshot_at": 1791644899.2285674,
+  "completed_steps": [
+    "1_verify_target",
+    "2_restore_snapshot",
+    "3_scale_pool",
+    "4_wait_ready",
+    "5_dns_cutover"
+  ]
+}

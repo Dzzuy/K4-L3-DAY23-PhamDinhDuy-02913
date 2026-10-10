@@ -1,0 +1,16 @@
+{
+  "measured_at_utc": "2026-10-10T15:09:55.310653+00:00",
+  "routing_mode": "active-active",
+  "requests": 20,
+  "served_by": {
+    "a": 10,
+    "b": 10
+  },
+  "errors": 0,
+  "merge": {
+    "documents": 403,
+    "conflicts_resolved": 1
+  },
+  "conflict_winner": "B-new",
+  "conflict_rule": "newer ingested_at; equal timestamp chooses region b"
+}

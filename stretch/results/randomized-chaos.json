@@ -1,0 +1,70 @@
+{
+  "measured_at_utc": "2026-10-10T15:15:25.262402+00:00",
+  "seed": 23,
+  "trials": [
+    {
+      "trial": 1,
+      "mode": "netblock",
+      "kill_delay_s": 7.69,
+      "rto_s": 26.5,
+      "rpo_s": 6.0,
+      "docs_lost": 3,
+      "requests_failed": 13,
+      "valid": true,
+      "warnings": [],
+      "recovered_by": "b"
+    },
+    {
+      "trial": 2,
+      "mode": "stop",
+      "kill_delay_s": 8.12,
+      "rto_s": 21.8,
+      "rpo_s": 0.0,
+      "docs_lost": 0,
+      "requests_failed": 65,
+      "valid": true,
+      "warnings": [],
+      "recovered_by": "b"
+    },
+    {
+      "trial": 3,
+      "mode": "netblock",
+      "kill_delay_s": 6.52,
+      "rto_s": 28.8,
+      "rpo_s": 6.0,
+      "docs_lost": 3,
+      "requests_failed": 14,
+      "valid": true,
+      "warnings": [],
+      "recovered_by": "b"
+    },
+    {
+      "trial": 4,
+      "mode": "stop",
+      "kill_delay_s": 6.77,
+      "rto_s": 22.6,
+      "rpo_s": 0.0,
+      "docs_lost": 0,
+      "requests_failed": 67,
+      "valid": true,
+      "warnings": [],
+      "recovered_by": "b"
+    },
+    {
+      "trial": 5,
+      "mode": "netblock",
+      "kill_delay_s": 7.78,
+      "rto_s": 26.5,
+      "rpo_s": 6.0,
+      "docs_lost": 3,
+      "requests_failed": 13,
+      "valid": true,
+      "warnings": [],
+      "recovered_by": "b"
+    }
+  ],
+  "mean_rto_s": 25.24,
+  "sample_stddev_rto_s": 2.94,
+  "min_rto_s": 21.8,
+  "max_rto_s": 28.8
+}

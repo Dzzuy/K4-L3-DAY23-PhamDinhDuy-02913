@@ -1,0 +1,11 @@
+{
+  "postgres_version": "16-alpine",
+  "recovery_target_utc": "2026-10-10 15:17:26.822514+00",
+  "rows_after_recovery": [
+    1,
+    2
+  ],
+  "excluded_after_target": 3,
+  "metadata_rto_s": 1.967,
+  "measured_at_utc": "2026-10-10T15:17:30.385869+00:00"
+}

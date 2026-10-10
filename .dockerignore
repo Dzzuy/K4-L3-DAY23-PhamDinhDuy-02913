@@ -1,0 +1,13 @@
+.git
+.venv
+LabGuide.md
+__pycache__
+.pytest_cache
+state/region-a
+state/region-b
+state/_replica
+reports
+run
+D23-PhamDinhDuy-2A202602913
+stretch/results
+stretch/terraform/.terraform
